@@ -1719,3 +1719,237 @@ The deepest recursion occurs when OPTICS itself becomes observable. Then the the
 **Status:** Architectural hypothesis. Philosophical foundation. Experimental programme.
 
 **Not claimed:** Implemented system. Proven effectiveness. Final ontology.
+
+
+## Related Work: Precursors and Positioning
+
+**Epistemic status of this section:** `SHADOW`. Compiled from training data without live verification. Every citation should be checked before publication. Structural parallels are interpretive, not textological.
+
+---
+
+### 1. The Generative Formula and Its Antecedents
+
+Before examining the literature, we restate the generative formula from Part 0:
+
+```
+∂G/∂t = ∇_Δ R(G,Δ) − ∇_G C(G,ε),   ∂I/∂t ≈ 0
+```
+
+Where `R` is generation/unfolding, `C` is constraint/resistance, and `I` is the protected invariant. No single prior work combines all three terms in this configuration. However, each term has deep antecedents in both Western and Soviet intellectual traditions. The contribution of TGS is not the invention of these components but their synthesis into a single epistemic architecture with adaptive mode switching.
+
+---
+
+### 2. Generation and Resistance: The Dynamics of R and C
+
+**Porshnev (1966/1979).** Boris Porshnev's *Social Psychology and History* identifies **suggestion** and **counter-suggestion** as the two fundamental forces of social systems. Suggestion spreads influence and generates social fields; counter-suggestion creates barriers, individuality, and resistance. The system is alive precisely when both forces are present. Neither total submission nor total rupture is stable.
+
+Structural parallel: Porshnev's suggestion ≈ `∇_Δ R`; counter-suggestion ≈ `−∇_G C`. His central insight — that resistance is not a system defect but a structural component — directly anticipates §6 and §8 of TGS.
+
+Gap: Porshnev did not isolate the invariant (`I`) as an explicit variable, did not transfer the mechanism to epistemology, and did not propose an architecture for adaptive switching between modes.
+
+**Vygotsky (1934).** Lev Vygotsky's *Thought and Language* and his concept of the **Zone of Proximal Development (ZPD)** model development as unfolding through social interaction, mediated by signs. The ZPD is the space between actual and potential development — not a deficit but a space of growth.
+
+Structural parallel: ZPD ≈ Gap (§20). Interiorisation (external social action becoming internal psychological process) ≈ Self-Unfolding (§2). The sign as a tool that transforms cognition without destroying its function ≈ change of basis (§1).
+
+Gap: Vygotsky's system is asymmetric toward `R` (development, expansion). It lacks an explicit epistemic constraint function (OPTICS) and does not formulate what exactly is invariant under the change of basis.
+
+**Friston (2005, 2010).** Karl Friston's **Free Energy Principle** and Active Inference model cognition as minimisation of variational free energy. The system switches between exploration (information gain) and exploitation (prediction error minimisation) based on a quantitative criterion (expected free energy).
+
+Structural parallel: Active Inference provides a mathematical basis for mode switching that TGS seeks. The trigger function `T = w_F·F + w_S·S + w_C·C + w_R·R + w_U·U` (§22) is an ad hoc version of what Friston derives from a variational principle.
+
+Gap: Active Inference operates at the neural/sensorimotor level. Scaling to linguistic reasoning and epistemic modes remains open. Friston's exploration/exploitation is a single spectrum; TGS distinguishes VIEW (expansion of meaning) and OPTICS (constraint of justification) as qualitatively different operations.
+
+---
+
+### 3. The Invariant: What Survives Transformation
+
+**Ilyenkov (1960, 1979).** Evald Ilyenkov's *Dialectics of the Abstract and the Concrete in Marx's Capital* develops the method of **ascent from the abstract to the concrete**. Thought unfolds from an initial contradiction (the "cell" — e.g., the commodity) into a full system. His concept of the **ideal** is the closest Soviet-era analogue to the TGS invariant: the ideal is not "in the head" but in the structure of activity. It survives changes of material carrier (gold → paper → digital).
+
+Structural parallel: Ilyenkov's ideal ≈ `I` (invariant). His insistence that contradiction is the engine of development, not a logical error ≈ §8–9 of TGS (duality as information, paradox as governing object). The ascent from abstract to concrete ≈ Self-Unfolding.
+
+Gap: Ilyenkov described a method of thought but did not propose a cognitive architecture implementing it. No analogue of LIVE/VIEW/OPTICS, no machine-readable epistemic status, no reflexive level.
+
+**Ilyin (1918, 1953).** Ivan Ilyin's *Philosophy of Hegel as a Doctrine of the Concreteness of God and Man* and *Axioms of Religious Experience* develop the concept of the **living act of cognition**. Ilyin distinguishes **reason** (rassudok — formal-logical analysis) from **understanding** (razum — living holistic vision) and argues that the constraint on thought is not formal proof but **evidence** (ochevidnost') — a living self-evidence that stops arbitrary generation.
+
+Structural parallel: Ilyin's reason ≈ OPTICS; understanding ≈ VIEW. His concept of evidence as constraint ≈ `−∇_G C` in the epistemic register. His God as the invariant of wholeness ≈ §7 of TGS.
+
+Gap: Ilyin's framework is hierarchical (understanding above reason), not an equilibrium. TGS insists both poles are necessary (§6). No mechanism for adaptive switching; no reflexive level.
+
+**Lawvere (1963); Spivak (2014); Fong & Spivak (2019).** Category theory provides the natural mathematical language for invariants. A functor `F: C → D` transfers structure between contexts. A natural transformation is what remains "coherent" under change of context. A limit is a universal property independent of specific representation.
+
+Structural parallel: "Invariant = what survives change of basis" is literally the definition of a natural transformation. "Change of basis" is a functor. "Structural unity of the world" is a claim about the existence of a limit in a suitable category.
+
+Gap: TGS does not use the categorical apparatus. This is the largest unresolved gap between TGS's verbal precision and its formal emptiness. Category theory is not a precursor but a **candidate formalisation** of TGS's core concepts.
+
+---
+
+### 4. Epistemic Logic and the Structure of Knowledge
+
+**Hintikka (1962).** *Knowledge and Belief* establishes modal epistemic logic with operator `K_a φ` ("agent a knows that φ") and axioms including positive and negative introspection.
+
+**Stalnaker (1984).** *Inquiry* models reasoning as successive narrowing of the space of possible worlds. Knowledge is not a store of facts but a partition structure.
+
+**van Benthem (2011).** *Logical Dynamics of Information and Interaction* extends epistemic logic to dynamic operations: knowledge updates, public announcements, private messages. Knowledge is a process, not a state.
+
+**Brandom (1994).** *Making It Explicit* argues that epistemic status is determined by inferential role, not by probability. What matters is what follows from a claim and what it follows from.
+
+Contact with TGS: TGS's mode switching (LIVE/VIEW/OPTICS) is structurally close to van Benthem's dynamic updates. Brandom's inferentialism is close to TGS's epistemic typing: the status of a claim depends on its role in reasoning, not on a confidence score.
+
+Divergence: Standard epistemic logic uses binary `K` (knows/doesn't know) or probabilistic degrees. TGS introduces **type** of epistemic object (`HYPOTHESIS`, `CONSTRUCTION`, `CIRCULARITY`, `METAPHYSICS`) as a separate variable not reducible to degree of belief.
+
+TGS contribution: **MODE_ERROR** — a category of error absent from standard epistemic logic. In Hintikka's framework, error is false knowledge (`K_a φ` when `¬φ`). In TGS, error can be in the **mode**: `φ` may be true, but the legitimation regime applied to it may be wrong (§17, §49).
+
+---
+
+### 5. Philosophy of Science: Paradigms and Research Programmes
+
+**Kuhn (1962).** *The Structure of Scientific Revolutions* models paradigm shifts as changes of descriptive basis. Normal science operates within a paradigm; anomalies accumulate; crisis; revolution; new basis.
+
+**Lakatos (1970).** "Falsification and the Methodology of Scientific Research Programmes" distinguishes the **hard core** (invariant) from the **protective belt** (auxiliary hypotheses). A progressive programme predicts novel facts; a degenerative one adjusts to old ones.
+
+**Quine (1951, 1960).** "Two Dogmas of Empiricism" and *Word and Object* argue for ontological relativity. No facts are theory-independent. Change of ontology is change of language, not discovery of "true" structure.
+
+Contact with TGS: TGS is essentially **Lakatos + Kuhn transferred to AI architecture**. The TGS invariant (§2) is Lakatos's hard core. Change of basis is Kuhn's paradigm shift. The difference is that TGS applies these ideas not to the history of science but to the **real-time operation of a cognitive system**.
+
+Gap: Kuhn and Lakatos describe collective processes over decades. TGS describes switching within a single agent in seconds. This downward scaling is non-trivial and unvalidated.
+
+---
+
+### 6. Calibration and Uncertainty in AI
+
+**Dawid (1982).** "The Well-Calibrated Bayesian" — classical definition of calibration.
+
+**Guo et al. (ICML 2017).** "On Calibration of Modern Neural Networks" — modern deep networks are systematically overconfident. Introduced ECE (Expected Calibration Error).
+
+**Kadavath et al. (Anthropic, 2022).** "Language Models (Mostly) Know What They Know" — LLMs can predict correctness of their own answers above chance using `P(True)` format. Internal epistemic signal exists but is imperfect.
+
+**Burns et al. (ICLR 2023).** "Discovering Latent Knowledge Without Supervision" — detecting "hidden knowledge" through internal activations. A model may "know" an answer but generate a different one.
+
+**Farquhar et al. (Nature, 2024).** "Detecting hallucinations using semantic entropy" — confabulation detection through variance of semantically equivalent generations. Behavioural signal, not self-report.
+
+Contact with TGS: TGS agrees with Kadavath et al.'s core finding — internal epistemic signal exists. The Runtime Controller (§21) is an attempt to use this signal for mode switching.
+
+Divergence: Calibration literature operates at the level of **individual claims** (this answer is correct with probability `p`). TGS operates at the level of **system operating mode** (does this situation require verification right now?). Different levels of abstraction.
+
+TGS contribution: Explicit separation of **mode** and **status** (§14). A system can be in OPTICS mode with `UNVERIFIED` status. Activation of checking ≠ result of checking. Calibration literature typically does not separate these variables.
+
+---
+
+### 7. Iterative Reasoning and Self-Correction
+
+**Wei et al. (NeurIPS 2022).** Chain-of-Thought — verbalising intermediate steps improves reasoning.
+
+**Wang et al. (ICLR 2023).** Self-Consistency — multiple reasoning paths + majority vote.
+
+**Yao et al. (NeurIPS 2023).** Tree of Thoughts — search over reasoning alternatives with backtracking.
+
+**Madaan et al. (NeurIPS 2023).** Self-Refine — model critiques and rewrites its own output.
+
+**Shinn et al. (NeurIPS 2023).** Reflexion — verbal reinforcement learning from past failures.
+
+**Lightman et al. (2023).** Process Reward Models — evaluating each reasoning step, not just the final answer.
+
+Contact with TGS: VIEW ≈ Tree of Thoughts (expansion). OPTICS ≈ Self-Refine and PRM (constraint). The LIVE → VIEW → OPTICS → LIVE cycle generalises iterative reasoning.
+
+Divergence: All listed approaches use the **same model** for generation and critique. TGS (§33) emphasises this as a systematic weakness: the model reproduces its own blind spots. TGS proposes **architectural separation** of generator and verifier, not just prompt-level separation.
+
+TGS contribution: Typology of epistemic paths (Shadow / Construction / Circularity / Speculative). Self-Consistency votes on the answer; TGS classifies the **type of argumentation**.
+
+---
+
+### 8. Formal Verification of Reasoning
+
+**Coq** (1989–), **Isabelle** (1986–), **Lean** (2015–), **Lean 4** (2021–). Shared principle: separation of **tactics** (step generation) and **kernel** (verification). The kernel is minimal and checks every step. The goal state is an explicit object representing the unclosed gap between current state and target.
+
+**AlphaProof / AlphaGeometry** (DeepMind, 2024). Neural network proposes steps; Lean verifies. IMO 2024 silver medal.
+
+Contact with TGS: This is the most direct realisation of Generator ∌ Verdict (§18). Lean's goal state is a machine-readable `unresolved_gap` (§20). Circularity is prevented by kernel architecture, not user discipline.
+
+Divergence: Proof assistants work only in **fully formalisable domains**. TGS targets open-domain natural language reasoning where no formal kernel is available. Not competition but different scope.
+
+TGS contribution: Generalisation of gap-first reasoning beyond formal mathematics. In Lean, a gap is a specific subgoal. In TGS, a gap can be "causal mechanism not independently established" — informal but explicitly represented.
+
+---
+
+### 9. Multi-Agent Verification and Debate
+
+**Irving, Christiano, Amodei (2018).** "AI Safety via Debate" — two agents argue, a judge decides. Hypothesis: in equilibrium, lies lose because they are easier to attack than defend.
+
+**Du et al. (ICML 2023); Liang et al. (2023).** Empirical multi-agent debate implementations.
+
+**Bai et al. (Anthropic, 2022).** Constitutional AI / RLAIF — model critiques its own outputs against explicit principles, then trains on corrected versions.
+
+Contact with TGS: Constitutional AI realises the Constraint Filter (§44) through explicit principles. Debate realises Resistance → diagnostic signal (§96).
+
+Divergence: Debate approaches typically do not type the **epistemic status** of arguments. Agents argue but do not label their claims as `SHADOW`, `CONSTRUCTION`, or `CIRCULARITY`.
+
+TGS contribution: **Anti-Oracle** (§30, §42) — a system that does not choose a debate winner but classifies all candidate paths with explicit commitments and remaining gaps. Different interface to the same process.
+
+---
+
+### 10. Mechanistic Interpretability
+
+**Elhage et al. (Anthropic, 2021).** "A Mathematical Framework for Transformer Circuits" — decomposing transformer behaviour into interpretable circuits.
+
+**Cunningham et al. (2023).** Sparse autoencoders for monosemantic feature extraction.
+
+**Templeton et al. (Anthropic, 2024).** "Scaling Monosemanticity" — extracting interpretable features from production models, including deception and sycophancy features.
+
+Contact with TGS: TGS acknowledges the performative self-report problem (§65). Mechanistic interpretability bypasses self-report through direct observation of internal states — what TGS calls Activation Probes (§63).
+
+Divergence: Interpretability operates at the level of **activations and features**; TGS operates at the level of **semantic structures and epistemic statuses**. Interpretability can detect that a model "thinks about deception" but cannot classify a claim as `SHADOW` or `CONSTRUCTION`.
+
+TGS contribution: Epistemic semantics on top of mechanistic observations. If interpretability detects a sycophancy feature, TGS asks: which epistemic mode is active? Which unresolved gap is hidden?
+
+---
+
+### 11. Selective Prediction and Metacognition
+
+**Geifman & El-Yaniv (NeurIPS 2017).** Selective classification — the model can abstain. Optimises coverage vs. accuracy trade-off.
+
+**Jospin et al. (2022).** Survey of uncertainty estimation in neural networks: MC Dropout, ensembles, variational inference.
+
+Contact with TGS: Selective prediction is a simplified LIVE/OPTICS. The model either answers (LIVE) or abstains (OPTICS without verification capability).
+
+Divergence: Selective prediction is binary (answer / abstain). TGS is ternary (LIVE / VIEW / OPTICS) and includes a **generative mode** (VIEW) that is neither answer nor refusal but expansion of the space.
+
+---
+
+### 12. Summary: Positioning Map
+
+| Direction | Closest prior | TGS agrees | TGS diverges | TGS adds |
+|---|---|---|---|---|
+| Suggestion/counter-suggestion | Porshnev | Resistance is structural | No epistemic transfer | R/C in epistemic architecture |
+| ZPD / interiorisation | Vygotsky | Gap as space, not deficit | No OPTICS, no invariant | Gap as first-class object |
+| Ideal / contradiction | Ilyenkov | Invariant survives carriers | No architecture | Runtime implementation |
+| Act / evidence | Ilyin | Constraint ≠ formal logic | Hierarchy, not equilibrium | MODE_ERROR |
+| Epistemic logic | Hintikka, van Benthem | Dynamic knowledge | Type ≠ degree | MODE_ERROR as category |
+| Paradigms | Kuhn, Lakatos | Invariant, basis change | Historical, not real-time | Runtime Controller |
+| Category theory | Lawvere, Spivak | Invariant = natural transf. | TGS not formalised | Direction for formalisation |
+| Calibration | Kadavath, Farquhar | Internal signal exists | Claim-level ≠ mode-level | Mode/status separation |
+| Self-correction | Wei, Yao, Shinn | Iterative reasoning | Same model ≠ reliable verifier | Path typology |
+| Formal verification | Lean, AlphaProof | Generator ∌ Verdict | Formal domains only | Gap in open-domain |
+| Debate | Irving, Bai | Resistance → signal | No argument typology | Anti-Oracle |
+| Active Inference | Friston | Mode switching | Neural ≠ semantic | VIEW ≠ OPTICS |
+| Interpretability | Elhage, Templeton | Bypass self-report | Activations ≠ epistemic status | Epistemic semantics |
+| Selective prediction | Geifman | Abstention as option | Binary ≠ ternary | VIEW as third mode |
+
+---
+
+### 13. Honest Assessment of Novelty
+
+TGS does not exist in a vacuum. Almost every element has precursors. This is normal and expected for a synthesis.
+
+**Genuinely new combinations in TGS:**
+
+1. **MODE_ERROR as an independent epistemic failure category.** No direct analogue found in the surveyed literature. Standard systems check "is the claim correct?"; TGS checks "is the right regime applied to this object?"
+
+2. **Shadow → Gap → Construction → Light as an explicit typology for open-domain reasoning.** Formally exists in proof assistants; the transfer to natural language with machine-readable schema (§40) is new.
+
+3. **Reflexive Optics Refinement (Part V).** Applying the epistemic grammar to the boundaries of the grammar itself, with a validation gate. Meta-learning adjusts parameters; TGS revises structure.
+
+4. **Synthesis of Soviet psychological-philosophical tradition (Porshnev, Vygotsky, Ilyenkov) with AI epistemic architecture.** These two traditions do not typically interact. TGS bridges them.
+
+**What TGS should acknowledge:** it stands on the shoulders of proof assistants (generator/verdict), active inference (mode switching), calibration (uncertainty), Lakatos (invariant), Porshnev (resistance as structure), Vygotsky (gap as space), and Ilyenkov (contradiction as engine). Its contribution is not the invention of these ideas but their unification and the addition of several new categories.
+
+---
